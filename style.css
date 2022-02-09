@@ -1,0 +1,162 @@
+@font-face {
+  font-family: Kremlin;
+  src: url(fonts/kremlin-webfont.woff2);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  background-color: red;
+}
+
+header {
+  background-image: url(street.jpg);
+  background-size: cover;
+  border-style: ridge;
+  border-width: 5px;
+  border-color: goldenrod;
+  padding: 10px;
+}
+
+main nav {
+  padding: 2rem;
+}
+main nav button {
+  margin-bottom: 1rem;
+  padding: 10px;
+}
+h1 {
+  font-family: kremlin;
+  font-size: 3rem;
+}
+
+h2 {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  font-family: kremlin;
+  font-size: 1.5rem;
+  color: goldenrod;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+}
+
+article {
+  border: 2px solid white;
+  border-radius: 15px 50px;
+  padding: 20px;
+  margin: 1em;
+  cursor: pointer;
+}
+
+button {
+  background-color: goldenrod;
+  color: white;
+  border: none;
+  display: flex;
+}
+
+.valgt {
+  background-color: blue;
+  color: goldenrod;
+}
+img {
+  width: 100%;
+}
+
+footer {
+  background-color: blue;
+  padding: 30px;
+}
+
+footer h3 {
+  font-family: kremlin;
+  padding-bottom: 10px;
+}
+
+p {
+  color: white;
+}
+
+.pris {
+  font-weight: bolder;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header nav a {
+  color: white;
+  background-color: blue;
+  font-family: kremlin;
+}
+
+#popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: crimson;
+  overflow: scroll;
+}
+
+#popup article {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  margin: 4rem auto;
+  border-radius: 15px 50px;
+  padding: 12px;
+  background-color: blue;
+  border: white;
+  border-width: 8px;
+  border-style: solid;
+  cursor: default;
+  color: white;
+  padding: 20px;
+}
+
+#luk {
+  position: fixed;
+  padding: 1rem;
+  font-size: 1.7em;
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    border-width: 10px;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 7rem;
+  }
+
+  main nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header a {
+    font-size: 2rem;
+  }
+}

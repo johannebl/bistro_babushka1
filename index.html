@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bistro Babushka</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+      <header>
+        <h1>BISTRO BABUSHKA</h1>
+       <nav><a href="#menu">Menu</a>
+       <a href="#footer">Info</a></nav>
+      </header>
+      <main>
+        <h2 id="kategoriH2">Alle</h2>
+         <nav class="filter">
+          <button data-kategori="alle" class="valgt">Alt på menuen</button>
+          <button data-kategori="drikkevarer">Drikkevarer</button>
+          <button data-kategori="forretter">Forretter</button>
+          <button data-kategori="hovedretter">Hovedretter</button>
+          <button data-kategori="desserter">Desserter</button>
+          <button data-kategori="sideorders">Side orders</button>
+        </nav class="filter">
+      <section id="liste"></section>
+
+      <template>
+        <article id="menu">
+          <h3 class="navn"></h3>
+          <img src="" alt=""/>
+          <p class="kortbeskrivelse"></p>
+          <p class="pris">Pris : </p>
+        </article>
+      </template>
+
+          <section id="popup">
+      <div id="luk">&#x2715</div>
+      <article>
+        <h2 class="navn"></h2>
+        <img src="" alt="">
+        <p><span class="langbeskrivelse"></span></p>
+        <p>Oprindelsesregion : <span class="oprindelsesregion"></span></p>
+        <p>Pris: <span class="pris"></span></p>
+      </article>
+    </section>
+    </main>
+        <footer id="footer">
+        <div>
+            <h3>Åbningstider:</h3>
+            <p>Hverdage (Mandag - fredag) : 12:30-23:30</p>
+            <p>Weekend (Lørdag - Søndag) : 11:30-01:00</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
