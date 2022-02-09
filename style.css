@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Arubutus;
+  font-family: arubutus;
   src: url(fonts/Arbutus-Regular.ttf);
 }
 
@@ -9,15 +9,15 @@
 }
 
 main {
-  background-color: red;
+  background-color: #656661;
 }
 
 header {
-  background-image: url(street.jpg);
+  background-image: url(matrioska.jpg);
   background-size: cover;
-  border-style: ridge;
+  font-family: arubutus;
   border-width: 5px;
-  border-color: goldenrod;
+
   padding: 10px;
 }
 
@@ -29,16 +29,16 @@ main nav button {
   padding: 10px;
 }
 h1 {
-  font-family: kremlin;
+  font-family: arubutus;
   font-size: 3rem;
 }
 
 h2 {
   padding-top: 1rem;
   padding-left: 2rem;
-  font-family: kremlin;
+  font-family: arubutus;
   font-size: 1.5rem;
-  color: goldenrod;
+  color: #bfc7d4;
   text-decoration: underline;
   text-decoration-color: white;
 }
@@ -58,27 +58,27 @@ article {
 }
 
 button {
-  background-color: goldenrod;
+  background-color: #bfc7d4;
   color: white;
   border: none;
   display: flex;
 }
 
 .valgt {
-  background-color: blue;
-  color: goldenrod;
+  background-color: #367a8d;
+  color: black;
 }
 img {
   width: 100%;
 }
 
 footer {
-  background-color: blue;
+  background-color: #367a8d;
   padding: 30px;
 }
 
 footer h3 {
-  font-family: kremlin;
+  font-family: arubutus;
   padding-bottom: 10px;
 }
 
@@ -98,8 +98,8 @@ header nav {
 
 header nav a {
   color: white;
-  background-color: blue;
-  font-family: kremlin;
+  background-color: #367a8d;
+  font-family: arubutus;
 }
 
 #popup {
@@ -109,7 +109,7 @@ header nav a {
   top: 0;
   width: 100vw;
   height: 100vh;
-  background-color: crimson;
+  background-color: #367a8d;
   overflow: scroll;
 }
 
@@ -120,7 +120,7 @@ header nav a {
   margin: 4rem auto;
   border-radius: 15px 50px;
   padding: 12px;
-  background-color: blue;
+  background-color: #bfc7d4;
   border: white;
   border-width: 8px;
   border-style: solid;
